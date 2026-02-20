@@ -37,23 +37,23 @@ This repository contains all Web Technology (WT) laboratory practical assignment
 
 ## 📂 Project Structure
 
-
+```text
 WT Practicals
 │
 ├── htdocs
-│ ├── WTPR3
-│ └── WTPR7
+│   ├── WTPR3
+│   └── WTPR7
 │
 ├── TOMCAT
-│ ├── WTPR5
-│ ├── WTPR6
-│ ├── WTPR8
-│ └── WTPR10
+│   ├── WTPR5
+│   ├── WTPR6
+│   ├── WTPR8
+│   └── WTPR10
 │
 ├── WTPR2
 ├── WTPR4
 └── WTPR9
-
+```
 
 ---
 
