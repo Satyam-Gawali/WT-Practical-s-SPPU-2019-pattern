@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="userApp">
+<head>
+  <meta charset="UTF-8">
+  <title>WTPR9 - User Management</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="app.js"></script>
+  <script src="controllers/userController.js"></script>
+  <script src="services/userService.js"></script>
+  <script src="directives/userCard.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-controller="UserController">
+
+  <h1>User Management System</h1>
+
+  <form ng-submit="addUser()">
+    <input type="text" ng-model="newUser.name" placeholder="Name" required>
+    <input type="email" ng-model="newUser.email" placeholder="Email" required>
+    <input type="text" ng-model="newUser.role" placeholder="Role" required>
+    <button type="submit">Add User</button>
+  </form>
+
+  <input type="text" ng-model="searchText" placeholder="Search user">
+
+  <div ng-repeat="user in users | filter:searchText">
+    <user-card info="user" on-delete="deleteUser(user)"></user-card>
+  </div>
+
+</body>
+</html>

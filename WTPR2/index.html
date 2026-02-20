@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Restaurant</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with inline CSS -->
+    <header style="background-color: #ff6b6b; color: white;">
+        <h1>Simple Eats</h1>
+        <p>Good food made simple</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#menu">Menu</a> |
+        <a href="#about">About</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Burger</td>
+                    <td>₹80</td>
+                </tr>
+                <tr>
+                    <td>Pizza</td>
+                    <td>₹150</td>
+                </tr>
+                <tr>
+                    <td>Salad</td>
+                    <td>₹70</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <ul>
+                <li>Family-owned since 2010</li>
+                <li>Fresh ingredients</li>
+                <li>Friendly service</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label>Name:</label>
+                <input type="text"><br>
+                
+                <label>Email:</label>
+                <input type="email"><br>
+                
+                <label>Message:</label>
+                <textarea></textarea><br>
+                
+                <button type="submit" style="background-color: #ff6b6b; color: white;">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 Simple Eats | Open daily 11am-9pm</p>
+    </footer>
+</body>
+</html>

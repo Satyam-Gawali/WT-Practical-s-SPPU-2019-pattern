@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>DataServlet</servlet-name>
+        <servlet-class>DataServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DataServlet</servlet-name>
+        <url-pattern>/submit</url-pattern>
+    </servlet-mapping>
+</web-app>

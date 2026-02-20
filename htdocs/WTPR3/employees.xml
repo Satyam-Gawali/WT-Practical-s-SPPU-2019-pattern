@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employees.xsl"?>
+<!DOCTYPE employees SYSTEM "employees.dtd">
+
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="employees.xsd">
+    <employee>
+        <id>101</id>
+        <name>Satyam Gawali</name>
+        <position>Flutter Developer</position>
+        <department>IT</department>
+        <salary>100000</salary>
+    </employee>
+    <employee>
+        <id>102</id>
+        <name>Aditya Pagare</name>
+        <position>HR Manager</position>
+        <department>HR</department>
+        <salary>90000</salary>
+    </employee>
+    <employee>
+        <id>103</id>
+        <name>Sakshi Chaudhari</name>
+        <position>Developer</position>
+        <department>IT</department>
+        <salary>90000</salary>
+    </employee>
+</employees>
